@@ -1,0 +1,65 @@
+Criando projeto NODE 
+npm init -y
+
+
+#DEPENDENCES
+express
+typeorm <- helps on database 
+reflect-metadata <- also for database 
+sqlite3 <- soft database 
+
+npm install express typeorm sqlite3 reflect-metadata
+
+-> Create file ormconfig.json 
+
+
+ormconfig.json 
+
+{
+    "type": "sqlite",
+    "database": "database/app.sqlite",
+    "synchronize": true, //when change entity it changes db
+    "logging":false,
+    "entities": ["stc/entity/**/*.ts"],
+    "migrations": ["stc/migration/**/*.ts"],
+    "subscribers": ["stc/subscriber/**/*.ts"] //especifics events
+    
+}
+
+//permit qqer website tem acesso a api 
+npm install cors 
+
+
+para initicar projeto 
+npm install --save-dev ts-node-dev 
+
+npm install --save-dev typescript
+
+packegjson
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn index.ts"  <- tsnd --respawn para mudar em tempo real quando o ficheiro for alterado 
+  },
+
+
+iniciar o typescript no projeto 
+
+npx typescript --init  antes
+npx tsc --init  <- now
+
+
+then 
+para o express funcionar com o typescript
+npm install --save-dev @types/express 
+
+same for cors  
+npm i --save-dev @types/cors
+
+
+ADD in ts config 
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+
+     for comunication with typeorm  
+     
