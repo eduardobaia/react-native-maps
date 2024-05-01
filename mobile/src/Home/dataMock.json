@@ -1,0 +1,165 @@
+[
+    {
+    "id": "0f4744a7-484a-4561-8874-d515a3ea1e45",
+    "name": "John's Coffee Shop",
+    "description": "Cozy place offering quality coffee and pastries.",
+    "category": "Cafe",
+    "contact": "contact@johnscoffee.com",
+    "latitude": 34.052235,
+    "longitude": -118.243683
+    },
+    {
+    "id": "a4872cb7-715f-49bd-9102-9b427f85922b",
+    "name": "Lisa's Tea House",
+    "description": "Traditional and herbal teas in a serene environment.",
+    "category": "Tea House",
+    "contact": "info@lisateahouse.com",
+    "latitude": 37.774929,
+    "longitude": -122.419416
+    },
+    {
+    "id": "2922c7e7-ead9-4f2c-a868-a87ae58728a5",
+    "name": "Bella's Bakery",
+    "description": "Freshly baked bread and pastries, made daily with organic ingredients.",
+    "category": "Bakery",
+    "contact": "orders@bellasbakery.com",
+    "latitude": 40.712776,
+    "longitude": -74.005974
+    },
+    {
+    "id": "490fb461-54e5-4ef5-8d76-7cd13a0a73d5",
+    "name": "Spicy Fusion Kitchen",
+    "description": "A delightful blend of spicy Indian and Thai cuisine.",
+    "category": "Restaurant",
+    "contact": "reservations@spicyfusionkitchen.com",
+    "latitude": 34.052235,
+    "longitude": -118.243683
+    },
+    {
+    "id": "c6b27dcf-44a7-44ab-b09b-dfbf62651f81",
+    "name": "Green Thumb Nursery",
+    "description": "Garden and nursery center with a focus on sustainable, native plants.",
+    "category": "Nursery",
+    "contact": "support@greenthumbnursery.com",
+    "latitude": 47.606209,
+    "longitude": -122.332071
+    },
+    {
+    "id": "c12ba0b7-ad89-45c0-9727-9d00d4f694c1",
+    "name": "The Craft Corner",
+    "description": "Arts and crafts supplies for all ages and skill levels.",
+    "category": "Retail",
+    "contact": "info@thecraftcorner.com",
+    "latitude": 51.507351,
+    "longitude": -0.127758
+    },
+    {
+    "id": "f3329f15-a56d-41c8-b35b-9df8eb3c2ca6",
+    "name": "Stefany Cabelo",
+    "description": "Unha e cabelo",
+    "category": "pet",
+    "contact": "3128732913",
+    "latitude": 38.75370742873924,
+    "longitude": -9.1509085893631
+    },
+    {
+    "id": "6ec01a9e-8ad1-458f-9896-42e07f6457e6",
+    "name": "Lemon fit",
+    "description": "Meu gym",
+    "category": "gas",
+    "contact": "32983041",
+    "latitude": 38.740293631004384,
+    "longitude": -9.123469591140749
+    },
+    {
+    "id": "51be621c-7583-4011-8363-91875409a2c1",
+    "name": "Alamenda",
+    "description": " A font",
+    "category": "basket",
+    "contact": "9382048132",
+    "latitude": 38.73709045971962,
+    "longitude": -9.1295662522316
+    },
+    {
+    "id": "3d60607c-4416-4786-b0cf-2a0876d2c802",
+    "name": "meine neu house ?",
+    "description": "je sais pas",
+    "category": "gas",
+    "contact": "13232",
+    "latitude": 38.742209966668874,
+    "longitude": -9.129906892776491
+    },
+    {
+    "id": "c39aa126-59ed-4697-9395-1439d03c8772",
+    "name": "Mercadijim",
+    "description": "balatin",
+    "category": "shopping",
+    "contact": "093223",
+    "latitude": 38.734569814952444,
+    "longitude": -9.133629798889162
+    },
+    {
+    "id": "6fff09e9-cde5-4a1a-85bf-e5d313397343",
+    "name": "outro mercadi",
+    "description": " au8i ",
+    "category": "shopping",
+    "contact": "2312",
+    "latitude": 38.73600051775104,
+    "longitude": -9.127718210220339
+    },
+    {
+    "id": "b3e66233-94ee-4d27-a962-b41623694c3e",
+    "name": "Locla name ",
+    "description": "ahhha",
+    "category": "pet",
+    "contact": "3244312",
+    "latitude": 38.73734828915479,
+    "longitude": -9.12642002105713
+    },
+    {
+    "id": "dc137594-359b-4bf4-a851-2edc0b3fc68a",
+    "name": "Hispiteal",
+    "description": "lopital",
+    "category": "hospital",
+    "contact": "232431231",
+    "latitude": 38.733665950648195,
+    "longitude": -9.138779640197756
+    },
+    {
+    "id": "d30bbe89-d890-4c3d-9350-05dbcd54d307",
+    "name": "famrcia",
+    "description": "3293",
+    "category": "hospital",
+    "contact": "9829323",
+    "latitude": 38.73282902905744,
+    "longitude": -9.143242835998537
+    },
+    {
+    "id": "e5ae6ded-43b0-4298-90b7-d4557f41cdec",
+    "name": "restaurante",
+    "description": "ahhaha",
+    "category": "restaurant",
+    "contact": "123121",
+    "latitude": 38.71233813053283,
+    "longitude": -9.13792133331299
+    },
+    {
+    "id": "a00d1ed2-b88c-4950-8656-f114ca2ac813",
+    "name": "posto de gasul",
+    "description": "aqui pertto",
+    "category": "gas",
+    "contact": "i29213812",
+    "latitude": 38.739155913130354,
+    "longitude": -9.122300148010256
+    },
+    {
+    "id": "c5be14ec-0610-419a-ab99-c0114283cbe6",
+    "name": "tecnico",
+    "description": "§estuda",
+    "category": "gas",
+    "contact": "345678",
+    "latitude": 38.73673802266927,
+    "longitude": -9.136647284030916
+    }
+    ]
+    

@@ -16,6 +16,7 @@ import {
 import MapView, { Marker } from "react-native-maps";
 import { categories } from "./categories";
 import { useNavigation } from "@react-navigation/native";
+import mockData from './dataMock.json'
 
 export interface IMarker {
   category: string;
@@ -27,7 +28,7 @@ export interface IMarker {
 }
 
 export default function Home() {
-  const [markers, setMarkers] = useState<IMarker>([]);
+  const [markers, setMarkers] = useState<IMarker[]>([]);
   const [filter, setFilter] = useState("");
   const navigation = useNavigation();
 
@@ -61,22 +62,15 @@ export default function Home() {
       mapRef.current?.animateToRegion(userRegion);
   }
 
-  //console.log(markers);
-  // useEffect(() => {
-  //     fetch("http://192.168.1.70:3000/store").then(async(request) =>{
-  //         const data = await request.json();
-
-  //         setMarkers(data);
-  //         console.log(markers[0].latitude)
-  //     })
-
-  // }, [])
+  
   useEffect(() => {
     async function fetchMarkers() {
       try {
-        const response = await fetch("http://192.168.1.70:3000/store");
-        const data = await response.json();
-        setMarkers(data);
+        // const response = await fetch("http://192.168.1.70:3000/store");
+        // const data = await response.json();
+
+        // setMarkers(data);
+        setMarkers(mockData);
       } catch (error) {
         console.error("Failed to fetch markers:", error);
       }
@@ -100,6 +94,10 @@ export default function Home() {
 
       <MapView
         ref={mapRef === null ? null : mapRef}
+         showsUserLocation={true}
+        // minZoomLevel={17}
+        showsMyLocationButton={true}
+         loadingEnabled={true}
         initialRegion={{
           latitude: markers[0].latitude,
           longitude: markers[0].longitude,
